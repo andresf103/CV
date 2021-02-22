@@ -1,0 +1,81 @@
+/* Style the button that is used to open and close the colapsable content */
+
+body {
+    background-color: #131724;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(43, 175, 175);
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    color: rgb(43, 175, 175);
+}
+
+.izquierda {
+    background-color: #0e101a;
+    box-shadow: 0px 2px 5px black;
+}
+
+.imagen {
+    margin-top: 0.7em;
+    box-shadow: 0px 2px 5px black;
+    width: 75%;
+    border-radius: 20%;
+}
+
+.seccion {
+    padding: 1em;
+    border-bottom: 2px inset #2f2f2f;
+    font-size: 0.8em;
+}
+
+.seccion>h6 {
+    margin-bottom: 1.4em;
+}
+
+.sombra {
+    filter: drop-shadow(0px 2px 3px black);
+}
+
+.colapsable {
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.4em;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.2em;
+    transition: all .2s;
+}
+
+.colapsable:hover {
+    background-color: rgb(59, 63, 63);
+}
+
+.colapsable:focus {
+    outline: none;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    color: #fff;
+    background-color: #0e101a;
+    margin-bottom: 10px;
+    transition: max-height 0.2s ease-out;
+}
+
+.content>ul>li {
+    padding-top: 10px;
+}
