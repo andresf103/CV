@@ -26,6 +26,7 @@ p {
 .izquierda {
     background-color: #202541;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .imagen {
@@ -99,11 +100,29 @@ p {
     padding-top: 10px;
 }
 
+.point {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin-left: 3px;
+    float: right;
+    background-color: #2f2f2f;
+}
+
 @media (max-width:575px) {
     .imagen {
         width: 50%;
     }
     .izquierda {
+        background-color: #171c2c;
+    }
+    .sombra {
+        filter: none;
+    }
+    .izquierda2 {
+        filter: drop-shadow(0px 2px 3px black);
+        background-color: #202541;
+        margin-bottom: 10px;
         border-radius: 5px;
     }
     .active {
